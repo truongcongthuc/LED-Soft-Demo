@@ -1,0 +1,95 @@
+.carousel-inner {
+    display: flex;
+    height: 100%;
+}
+
+.carousel-indicators {
+    bottom: -15px !important;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+}
+
+
+.timer-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .timer {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text {
+    color: #ffffff;
+  }
+  
+  .value {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+  }
+  
+  .station-title{
+    border: solid;
+    border-radius: 1.5vh;
+    letter-spacing: 0.1vh;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.0vh;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 1.0vh;
+    @media (max-width: 900px) {
+        font-size: 22px;
+        line-height: 20px;
+    }
+  }
+
+  .sub-title{
+    display: flex;
+    border-radius: 1.5vh;
+    margin-top: 1.0vh;
+    border: solid #fff;
+    border-width: 1px;
+    font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-size: 2.8vh;
+    padding: 0.5vh 1.0vh 0.5vh 1.0vh;
+    color: #FFFFFF;
+    @media (max-width: 900px) {
+        font-size: 14px;
+        line-height: 15px;
+    }
+  }
+
+.cirle-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0.5vh;
+  height: 4.0vh;
+  width: 4.0vh;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5vh;
+  color: #FFFFFF;
+  @media (max-width: 900px) {
+      font-size: 11px;
+      line-height: 15px;
+      height: 30px;
+      width: 30px;
+  }
+}

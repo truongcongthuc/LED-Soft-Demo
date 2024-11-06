@@ -1,0 +1,43 @@
+@import '~antd/dist/antd.css';
+
+.text-title {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 10%;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.text-sub-title {
+  font-family: sans-serif;
+  color: #ffffff !important;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.text-button {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #5f6a7a !important;
+}
+
+.back-ground-css{
+  background: linear-gradient(to right, #1c92d2, #f2fcfe);
+  width: 100%;
+  height: 100%;
+}
+
+.main-button{
+  background: #fff;
+  border-radius: 32px;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  justify-self: flex-end;
+  margin-top: 32px;
+  border-width: 0;
+}
+.a{
+  margin-top: 96px;
+}

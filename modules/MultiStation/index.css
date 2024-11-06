@@ -1,0 +1,15 @@
+.light-text.ant-progress .ant-progress-text {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 900px) {
+    .topnav a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
